@@ -50,12 +50,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 }
 
 void setDNS() {
-    system("netsh interface ip set dns name=\"WiFi\" static 178.22.122.100");
-    system("netsh interface ip add dns name=\"WiFi\" 185.51.200.2 index=2");
+    system("netsh interface ip set dns name=\"Wi-Fi\" static 178.22.122.100");
+    system("netsh interface ip add dns name=\"Wi-Fi\" 185.51.200.2 index=2");
 }
 
 void resetDNS() {
-    system("netsh interface ip set dns name=\"WiFi\" dhcp");
+    system("netsh interface ip set dns name=\"Wi-Fi\" dhcp");
 }
 
 void updateLog(HWND hwnd, const char *message) {
