@@ -1,6 +1,6 @@
 # DNS Manager - Quick DNS Switching Tool  
 
-![Application Icon](logo.png)  
+![Application Icon](assets/logo.png)  
 
 ## Description  
 This is a lightweight DNS changer application written in C for Windows. It allows users to quickly switch their DNS settings without navigating through complex network configurations.  
