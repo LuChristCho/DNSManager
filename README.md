@@ -12,26 +12,15 @@ This is a lightweight DNS changer application written in C for Windows. It allow
 - Pre-configured default DNS servers  
 - Minimal resource usage  
 
-## Usage  
-1. Run `program.exe` **as Administrator**.  
-2. The application will automatically apply the configured DNS settings.  
-3. Restart your system to revert to previous DNS settings.  
+## Usage (Portable Version)
+1. Download the latest portable version from [here](https://github.com/LuChristCho/DNSManager/releases/download/v1.3/portable.exe).
+2. Run `portable.exe` **always as Administrator**.  
 
-## Custom DNS Configuration  
-To use your preferred DNS servers:  
-1. Create a text file named `dns_config.txt` in the same directory as the executable.  
-2. Add your desired DNS addresses, one per line (max two servers).  
-
-Example `dns_config.txt`:  
-```
-8.8.8.8  
-8.8.4.4  
-```  
-
-## Default DNS Servers  
-If the configuration file is missing, empty, or unreadable, the application will use these fallback DNS servers:  
-- `185.51.200.2`  
-- `178.22.122.100`  
+## Usage (Installer)
+1. Download the latest setup file from [here](https://github.com/LuChristCho/DNSManager/releases/download/v1.3/setupfile.exe).
+2. Run the installer as administrator and complete the installation process.
+3. Run the program.
+4. Make sure the program is run as **administrator**. 
 
 ## Compilation Instructions  
 To compile from source (requires Mingw):  
